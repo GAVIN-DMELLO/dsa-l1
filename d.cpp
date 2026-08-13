@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int diff(){
+  long long  a , b , c , d;
+  cin>>a>>b>>c>>d;
+
+  long long x = (a*b)-(c*d);
+  cout<<"Difference = "<<x<<'\n';
+
+}
+
+int main(){
+  diff();
+  return 0;
+}
+
