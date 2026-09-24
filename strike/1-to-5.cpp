@@ -23,10 +23,18 @@ int main(){
   // }
 
 
-  int table = 7;
+  // int table = 7;
 
-  for(int i=1 ; i<=10 ; i++){
-    cout<<"7 * "<<i<<" = "<<(table*i)<<endl;
+  // for(int i=1 ; i<=10 ; i++){
+  //   cout<<"7 * "<<i<<" = "<<(table*i)<<endl;
+  // }
+
+
+  for(int i=1 ; i<=7 ; i++){
+    for(int j=1 ; j<=5 ; j++){
+      cout<<"*";
+    }
+    cout<<endl;
   }
 
   return 0;
