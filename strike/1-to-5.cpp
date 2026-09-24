@@ -18,8 +18,15 @@ int main(){
   // }
 
 
-  for(int i=10;i>=0;i--){
-    cout<<i<<" ";
+  // for(int i=10;i>=0;i--){
+  //   cout<<i<<" ";
+  // }
+
+
+  int table = 7;
+
+  for(int i=1 ; i<=10 ; i++){
+    cout<<"7 * "<<i<<" = "<<(table*i)<<endl;
   }
 
   return 0;
