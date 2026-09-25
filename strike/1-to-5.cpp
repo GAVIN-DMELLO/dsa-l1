@@ -133,17 +133,48 @@ int main(){
 
 
 
-for(int k=1 ; k<=5 ; k++){
-  for(int i=1 ; i<=5-k ; i++){
-    cout<<" ";
-  }
-  for(int j=1 ; j<=k ; j++){
-    cout<<"*";
+// for(int k=1 ; k<=5 ; k++){
+//   for(int i=1 ; i<=5-k ; i++){
+//     cout<<" ";
+//   }
+//   for(int j=1 ; j<=k ; j++){
+//     cout<<"*";
+//   }
+//   cout<<endl;
+
+
+// }
+
+
+for(int i=1 ; i<=25 ; i=i+5){
+  for(int j=i ; j<=i+4 ; j++){
+    cout<<j<<" ";
   }
   cout<<endl;
-
-
 }
+
+
+
+
+// for(int i=6 ; i<=10 ; i++){
+//   cout<<i<<" ";
+// }
+// cout<<endl;
+
+// for(int i=11 ; i<=15 ; i++){
+//   cout<<i<<" ";
+// }
+// cout<<endl;
+
+// for(int i=16 ; i<=20 ; i++){
+//   cout<<i<<" ";
+// }
+// cout<<endl;
+
+// for(int i=21 ; i<=25 ; i++){
+//   cout<<i<<" ";
+// }
+// cout<<endl;
   
 
 
