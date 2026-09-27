@@ -66,18 +66,18 @@ int main(){
   // cout<<endl;
 
 
-  for(int k=0 ; k<=4 ; k++){
-    for(int j=1 ; j<=k ; j++){
-      cout<<" ";
-    }
-    for(int i=1 ; i<=(9-2*k) ; i++){
-      cout<<"*";
-    }
-    for(int j=1 ; j<=k ; j++){
-      cout<<" ";
-    }
-    cout<<endl;
-  }
+  // for(int k=0 ; k<=4 ; k++){
+  //   for(int j=1 ; j<=k ; j++){
+  //     cout<<" ";
+  //   }
+  //   for(int i=1 ; i<=(9-2*k) ; i++){
+  //     cout<<"*";
+  //   }
+  //   for(int j=1 ; j<=k ; j++){
+  //     cout<<" ";
+  //   }
+  //   cout<<endl;
+  // }
   
 
 
@@ -128,6 +128,36 @@ int main(){
   //   cout<<" ";
   // }
   // cout<<endl;
+
+
+
+
+  for(int k=4 ; k>=1 ; k--){
+    for(int i=1 ; i<=k ; i++){
+      cout<<" ";
+    }
+    for(int j=1 ; j<=(9-2*k) ; j++){
+      cout<<"*";
+    }
+    for(int i=1 ; i<=k ; i++){
+      cout<<" ";
+    }
+    cout<<endl;
+  }
+
+
+  for(int i=1;i<=1;i++){
+    cout<<" ";
+  }
+  for(int j=1 ; j<=5 ; j++){
+    cout<<"*";
+  }
+  for(int i=1 ; i<=1 ; i++){
+    cout<<" ";
+  }
+  
+
+  
 
   return 0;
 }
