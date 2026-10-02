@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 
-  int num = 153;
+  int num = 264;
 
   int arm = 0;
 
