@@ -3,9 +3,9 @@ using namespace std;
 
 int main(){
 
-  int num = 0;
+  int num = 20;
 
-  int factorial = 1;
+  long long factorial = 1;
 
   if(num == 0){
     cout<<1<<endl;
