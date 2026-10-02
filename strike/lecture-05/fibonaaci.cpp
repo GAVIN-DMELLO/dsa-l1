@@ -7,7 +7,7 @@ int main(){
 
   int fib;
   if(n<=1){
-    fib = n;
+    cout<<n<<endl;
     return 0;
   }
 
